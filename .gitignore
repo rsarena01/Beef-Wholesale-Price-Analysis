@@ -1,0 +1,54 @@
+# ==========================================
+# Data & Analysis Outputs (Keep Local)
+# ==========================================
+# Ignore processed datasets
+data/processed/
+
+# Ignore model outputs, metrics, and experimental performance trackers
+data/results/
+data/experimental_results.csv
+
+# Keep raw source data tracked in git
+!data/raw/
+
+# ==========================================
+# Python & Notebook Artifacts
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints and local state
+.ipynb_checkpoints/
+.virtual_documents/
+
+# ==========================================
+# OS & Local Editor Configurations
+# ==========================================
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE-specific configurations (VS Code, PyCharm)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+#  Virtual Environments & Packages
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
